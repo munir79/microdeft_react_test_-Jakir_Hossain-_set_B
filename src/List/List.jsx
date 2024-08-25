@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, 
+{ useEffect, useState } from 'react';
 import Card from '../Card';
 
 const List = () => {
@@ -11,7 +12,7 @@ const List = () => {
     return (
         <div>
             {
-                product.map(pr=><Card key={pr.id} pr={pr}></Card>)
+                product.map(pr=> <Card key={pr.id} pr={pr}></Card>)
             }
         </div>
     );
