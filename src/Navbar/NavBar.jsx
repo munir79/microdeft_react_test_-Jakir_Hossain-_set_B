@@ -31,6 +31,7 @@ const NavBar = () => {
   </div>
   <div className="navbar-center">
    <Link to='/form'> <a className="btn btn-ghost text-xl">Form</a></Link>
+   <Link to='/card'> <a className="btn btn-ghost text-xl">product </a></Link>
   </div>
   <div className="navbar-end">
     <button className="btn btn-ghost btn-circle">
